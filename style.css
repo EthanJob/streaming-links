@@ -1,4 +1,25 @@
-* {
+body, html {
+  text-align: center;
+  height: 100%;
+}
+
+.bg {
+  background-image: url("images/palm-trees-copy.jpeg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
   text-align: center;
 }
 
