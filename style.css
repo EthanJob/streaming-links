@@ -6,7 +6,7 @@ body {
   background-size: cover;
 }
 
-img {
+#artwork {
   height: 350px;
   width: 350px;
 }
@@ -51,4 +51,17 @@ a {
 .youtubeLogo {
   height: 35px;
   width: auto;
+}
+
+@media screen and (max-width:500px) {
+  body {
+    width: 100%;
+    background-size: auto;
+  }
+
+  #artwork {
+    height: 250px;
+    width: 250px;
+  }
+
 }
