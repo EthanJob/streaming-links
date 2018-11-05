@@ -7,15 +7,48 @@ body {
 }
 
 img {
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
 }
 
 .links {
-  margin-top: 35px;
+  margin-top: 10px;
 }
 
-h1, a {
+.title, a {
   font-family: 'Open Sans', sans-serif;
   color: white;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+#bTitle {
+  margin-top: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spotifyLogo {
+  height: 40px;
+  width: auto;
+}
+
+.itunesLogo {
+  height: 48px;
+  width: auto;
+}
+
+.youtubeLogo {
+  height: 35px;
+  width: auto;
 }
