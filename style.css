@@ -39,18 +39,27 @@ a {
 }
 
 .spotifyLogo {
-  height: 40px;
+  height: 50px;
   width: auto;
+  margin-top: 10px;
+  transition-duration: .4s;
 }
 
 .itunesLogo {
-  height: 48px;
+  height: 75px;
   width: auto;
+  margin-bottom: 25px;
+  transition-duration: .4s;
 }
 
 .youtubeLogo {
-  height: 35px;
+  height: 38px;
   width: auto;
+  transition-duration: .4s;
+}
+
+.spotifyLogo:hover, .itunesLogo:hover, .youtubeLogo:hover {
+  transform: scale(1.2);
 }
 
 @media screen and (max-width:500px) {
@@ -62,6 +71,23 @@ a {
   #artwork {
     height: 250px;
     width: 250px;
+  }
+
+  .spotifyLogo {
+    height: 40px;
+    width: auto;
+    margin-top: 10px;
+  }
+
+  .itunesLogo {
+    height: 65px;
+    width: auto;
+    margin-bottom: 25px;
+  }
+
+  .youtubeLogo {
+    height: 28px;
+    width: auto;
   }
 
 }
